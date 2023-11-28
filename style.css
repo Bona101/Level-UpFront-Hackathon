@@ -39,7 +39,8 @@ nav {
     }
 
     .search-bar {
-        width: auto;
+        width: auto !important;
+        min-width: 100px;
     }
 
     .notifications-popup {
@@ -53,12 +54,12 @@ nav {
     }
 
     .trial-plan {
-        width: auto!important;
-        height: auto!important;
+        width: auto !important;
+        height: auto !important;
     }
 
     .plan-x {
-        margin-top: -20px!important;
+        margin-top: -20px !important;
     }
 
     /* .x {
@@ -70,13 +71,14 @@ nav {
     } */
 
     .drop-menu {
-        width: auto!important;
+        width: auto !important;
     }
 
-    .task-button { 
+    .task-button {
         /* width: 150px!important; */
     }
-    .task-button p { 
+
+    .task-button p {
         /* width: 150px!important; */
     }
 
@@ -84,18 +86,18 @@ nav {
         /* height: 30px!important; */
     }
 
-    .tasks > img {
+    .tasks>img {
         display: none;
     }
 }
 
 @media (max-width: 587px) {
     .x {
-            position: absolute !important;
-            left: auto !important;
-            top: 150px !important;
-            right: 20px;
-        }
+        position: absolute !important;
+        left: auto !important;
+        top: 150px !important;
+        right: 20px;
+    }
 
     .trial-plan {
         padding-bottom: 20px !important;
@@ -203,7 +205,7 @@ button {
     border-radius: 8px;
     gap: 8px;
     background: #303030;
-    cursor: pointer;                    
+    cursor: pointer;
     border: none;
 }
 
@@ -213,7 +215,7 @@ button {
 }
 
 .notification-box-clicked {
-    background: #656266!important;
+    background: #656266 !important;
 }
 
 .notification-bell {
@@ -337,9 +339,9 @@ button {
 
 /* .collections-text-div:focus {
     /* box-shadow: 0px 0px 0px 3px #005BD3; */
-    /* border: 1px solid #005BD3!important; */
-    /* background: red!important; */
-    /* box-shadow: 0px 0px 0px 1px #000000; */
+/* border: 1px solid #005BD3!important; */
+/* background: red!important; */
+/* box-shadow: 0px 0px 0px 1px #000000; */
 /* } */
 
 .collections-text {
@@ -405,7 +407,7 @@ button {
 /* .collections-popup > hr {
     rotate: 90deg;
 } */
-.collections-popup > a {
+.collections-popup>a {
     display: block;
     color: #303030;
     font-size: 13px;
@@ -420,23 +422,23 @@ button {
     padding: 5px;
     padding-left: 9px;
     border-radius: 12px;
-        /* outline: none;
+    /* outline: none;
             background-color: transparent;
             border: none;
             padding: 0; */
     text-decoration: none;
 }
 
-.collections-popup > div {
+.collections-popup>div {
     margin: 0;
     border-radius: 12px;
     padding: 0;
     padding-left: 9px;
 }
 
-.collections-popup > p:hover,
-.collections-popup > div:hover {
-    background: #F1F1F1!important;
+.collections-popup>p:hover,
+.collections-popup>div:hover {
+    background: #F1F1F1 !important;
 }
 
 .collec-grey-area {
@@ -507,10 +509,11 @@ button {
     /* margin-top: 50px; */
 }
 
-.svg-stores > svg {
+.svg-stores>svg {
     display: inline-block;
     margin-top: 8px;
 }
+
 .svg-stores p {
     margin: 0;
     color: #303030;
@@ -1071,7 +1074,7 @@ button {
     /* background: linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),
         linear-gradient(0deg, #404040, #404040); */
     background: #404040;
-    
+
 }
 
 .set-up-payment {
