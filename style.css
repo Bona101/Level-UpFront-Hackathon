@@ -43,6 +43,10 @@ nav {
         min-width: 100px;
     }
 
+    .search {
+        width: 100%;
+    }
+
     .notifications-popup {
         width: auto;
         height: auto;
